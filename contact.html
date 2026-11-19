@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery</title>
+	<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navigation.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/bakery-logo_c.png" alt="North Star Bakery Logo">
+        <h1 id="page-title">North Star Bakery</h1>
+        <nav class="navigation">
+            <ul class="nav_main">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact and Pre-Order Requests</h2>
+        <p>lorem ipsum</p>
+        <form action="/contact" method="post">
+            <fieldset>
+                <legend>Pre-Order and Inquiry Form</legend>
+                    <label for="full_name">Full Name</label>
+                    <input type="text" id="full_name" name="full_name">
+                    <label for="email_address">Email Address</label>
+                    <input type="email" id="email_address" name="email_address">
+                    <br>
+                    <label for="pickup_date">Pickup Date</label>
+                    <input type="date" id="pickup_date" name="pickup_date">
+                    <label for="request_type">Request Type</label>
+                    <select id="request_type" name="request_type">
+                        <option value="">-- Select --</option>
+                        <option value="preorder">Pre-Order</option>
+                        <option value="general">General Question</option>
+                    </select><br>
+                    <label for="message">Order Details:</label><br>
+                    <textarea id="message" name="message" rows="5" cols="40"></textarea><br>
+                    <label for="allergies">Allergy Notes</label><br>
+                    <textarea id="allergies" name="allergies" rows="4" cols="50">None</textarea><br>
+                    <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
+        <section class="card">
+            <h3>Location Information</h3>
+            <p>lorem ipsum lorem ipsum</p>
+
+            <h3>Hours of Operation</h3>
+            <p>lorem ipsum lorem ipsum</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>2026 North Star Bakery</p>
+    </footer>
+
+</body>
+</html>

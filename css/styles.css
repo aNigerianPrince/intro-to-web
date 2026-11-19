@@ -1,0 +1,45 @@
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #fdf8f2;
+    color: #2b1d14;
+    max-width: 960px;
+    margin: 0;
+    padding: 16px;
+
+} 
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media (max-width: 768px) { 
+
+
+    .card-row { 
+        flex-direction: column; 
+
+
+    } 
+
+}
+
+header img {
+    width: 120px;
+    height: auto;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
